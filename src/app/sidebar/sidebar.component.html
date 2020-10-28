@@ -1,5 +1,5 @@
-<h3>Your Profiles</h3>
-<button (click)="onSaveNewProfile()">Save List as Profile</button>
+
+<button (click)="onSaveNewProfile()">Save</button>
 <article *ngFor="let profile of profiles" class="profile" (click)="onLoadProfile(profile)">
     <div class="inner">
         <h4>{{ profile.profileName }}</h4>
